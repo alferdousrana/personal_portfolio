@@ -1,0 +1,116 @@
+.hero{
+  padding: 80px 0;
+}
+
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.hero-left{
+  flex: 1;
+}
+
+.hero-right{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-welcome{
+  color: orange;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-title{
+  font-size: 80px;
+  color: orange;
+  margin-bottom: 20px;
+}
+
+.hero-role{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle{
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 20px;
+}
+
+.hero-btn{
+  background: orange;
+  color: black;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.hero-btn:hover{
+  opacity: 0.8;
+}
+
+.hero-btn-outline{
+  background: transparent;
+  border: 2px solid orange;
+  color: orange;
+}
+
+.hero-image{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid orange;
+}
+
+@media(max-width: 992px){
+
+  .hero-container{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-buttons{
+    justify-content: center;
+  }
+
+  .hero-title{
+    font-size: 60px;
+  }
+
+  .hero-role{
+    font-size: 30px;
+  }
+
+}
+
+@media(max-width: 576px){
+
+  .hero-title{
+    font-size: 45px;
+  }
+
+  .hero-role{
+    font-size: 24px;
+  }
+
+  .hero-subtitle{
+    font-size: 18px;
+  }
+
+  .hero-image{
+    width: 280px;
+    height: 280px;
+  }
+
+}

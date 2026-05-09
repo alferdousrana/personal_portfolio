@@ -1,0 +1,486 @@
+const fallbackData = {
+  hero: {
+  name: "Dr. Fahreen Hannan",
+  title: "International Partnership & Business Lead",
+  subtitle: "Public Health Professional & Digital Health Strategist",
+  welcomeText: "Hello, Welcome to my Portfolio!",
+  linkedin: "http://linkedin.com/in/fahreen-hannan-953579138",
+  github: "#",
+  image: "/images/me.jpg",
+},
+
+about: {
+  name: "Dr. Fahreen Hannan",
+  role: "International Partnership & Business Lead",
+  experience: "10+ Years",
+  address: "Dhaka, Bangladesh",
+  email: "fahreenhannan84@gmail.com",
+  phone: "+880 1749-615193",
+  description:
+    "Public health professional and digital health strategist with 10+ years of experience in international partnership development, donor-funded program management, and scalable healthcare system design. Proven ability to secure and manage international donor funding, lead cross-functional teams, and align digital health solutions with global health priorities including WHO, ADB, and JICA frameworks. Transitioned from clinical practice to digital health leadership with a strong focus on building inclusive, technology-enabled healthcare ecosystems.",
+
+  details: [
+    {
+      label: "Profile",
+      value: "Public Health Professional & Digital Health Strategist",
+    },
+    {
+      label: "Domain",
+      value: "Digital Health, Public Health, Healthcare Strategy, Donor-Funded Programs",
+    },
+    {
+      label: "Current Role",
+      value: "International Partnership & Business Lead at Grameen HealthTech Limited",
+    },
+    {
+      label: "Expertise",
+      value: "International Partnerships, Donor Engagement, Program Management, Healthcare System Design",
+    },
+    {
+      label: "Global Frameworks",
+      value: "WHO, ADB, JICA",
+    },
+  ],
+  stats: [
+  {
+    label: "Projects",
+    value: "10+",
+  },
+  {
+    label: "Blogs",
+    value: "20+",
+  },
+  {
+    label: "Events",
+    value: "15+",
+  },
+  {
+    label: "Awards",
+    value: "10+",
+  },
+],
+
+},
+
+
+skills: [
+  {
+    name: "Healthcare Strategy & System Design",
+    percentage: 95,
+  },
+  {
+    name: "Leadership & Stakeholder Management",
+    percentage: 95,
+  },
+  {
+    name: "International Partnerships & Donor Engagement",
+    percentage: 90,
+  },
+  {
+    name: "Digital Health Platforms",
+    percentage: 90,
+  },
+  {
+    name: "Project & Program Management",
+    percentage: 90,
+  },
+  {
+    name: "Public Health Education",
+    percentage: 88,
+  },
+  {
+    name: "Communication & Training",
+    percentage: 95,
+  },
+  {
+    name: "MS Office, Reporting & Documentation",
+    percentage: 88,
+  },
+],
+
+education: [
+  {
+    date: "MPH",
+    title: "Master of Public Health (MPH), Hospital Management",
+    institute: "North South University",
+    grade: "CGPA: 3.91/4",
+  },
+  {
+    date: "BDS",
+    title: "Bachelor of Dental Surgery (BDS)",
+    institute: "University of Dhaka",
+    grade: "Pass",
+  },
+  {
+    date: "HSC",
+    title: "HSC (Science)",
+    institute: "Chittagong Board",
+    grade: "1st Division (65%)",
+  },
+  {
+    date: "SSC",
+    title: "SSC (Science)",
+    institute: "Chittagong Board",
+    grade: "1st Division (80%)",
+  },
+],
+
+research: [
+  {
+    title: "Effect of Smoking in Young Male Smokers",
+    institute: "North South University",
+    description:
+      "A research work focused on the impact of smoking among young male smokers.",
+    link: "#",
+  },
+  {
+    title: "Passive Smoking Causes Lung Cancer",
+    institute: "North South University",
+    description:
+      "A research study exploring the health risks of passive smoking and its connection with lung cancer.",
+    link: "#",
+  },
+],
+experience: [
+  {
+    id: 1,
+    year: "2024 - Present",
+    title: "International Partnership & Business Lead",
+    company: "Grameen HealthTech Limited",
+    type: "Full Time",
+    image: "/images/experience/grameen-healthtech.jpg",
+
+    responsibilities: [
+      "Lead international partnerships and business development initiatives for inclusive digital health ecosystems.",
+      "Manage collaborations with donor agencies, NGOs, government institutions, and private sector stakeholders.",
+      "Design scalable healthcare delivery models integrating telemedicine, service centers, and community outreach.",
+      "Drive strategic planning, proposal development, and cross-functional execution.",
+      "Represent the organization in international forums, donor meetings, and partnership discussions."
+    ],
+
+    achievements: [
+      "Secured and managed international donor funding from concept to implementation.",
+      "Developed district-level digital health automation models with KPI and M&E frameworks.",
+      "Contributed to WHO Digital Atlas submission increasing international visibility.",
+      "Led proposal development aligned with JICA and development partner priorities.",
+      "Expanded international partnership pipelines and collaboration opportunities."
+    ],
+  },
+
+  {
+    id: 2,
+    year: "2019 - 2024",
+    title: "Founder & Chief Executive Officer (CEO)",
+    company: "Dhaka Cast Limited",
+    type: "Founder & CEO",
+    image: "/images/experience/dhaka-cast.jpg",
+
+    responsibilities: [
+      "Founded and scaled a digital healthcare platform connecting patients with doctors, diagnostics, and emergency services.",
+      "Led cross-functional teams across technology, operations, marketing, and customer support.",
+      "Directed product development, service integration, and platform growth strategy."
+    ],
+
+    achievements: [
+      "Built and scaled an end-to-end digital healthcare platform improving healthcare accessibility.",
+      "Enabled remote healthcare access for patients across multiple locations.",
+      "Developed chronic disease management tools focused on diabetes care.",
+      "Represented Bangladesh internationally including She Loves Tech (Beijing).",
+      "Achieved National Digital Award and multiple innovation recognitions.",
+      "Advocated for inclusive technology-driven healthcare access."
+    ],
+  },
+
+  {
+    id: 3,
+    year: "2018 - 2019",
+    title: "Course Instructor – Behavioral & Communication Skills",
+    company: "Japan Bangladesh Friendship Nursing Institute",
+    type: "Instructor",
+    image: "/images/experience/jbfni.jpg",
+
+    responsibilities: [
+      "Delivered structured training on communication, ethics, and patient management.",
+      "Developed curriculum and facilitated professional training sessions."
+    ],
+
+    achievements: [
+      "Improved student communication and professional interaction skills.",
+      "Designed practical healthcare communication training materials."
+    ],
+  },
+
+  {
+    id: 4,
+    year: "2018",
+    title: "Community Builder – Grameenphone Accelerator Program",
+    company: "Grameenphone Ltd.",
+    type: "Community Program",
+    image: "/images/experience/grameenphone.jpg",
+
+    responsibilities: [
+      "Supported startup ecosystem development and innovation activities.",
+      "Worked as selected Community Builder for Dhaka Zone."
+    ],
+
+    achievements: [
+      "Contributed to startup ecosystem engagement and networking.",
+      "Supported accelerator community activities and innovation outreach."
+    ],
+  },
+
+  {
+    id: 5,
+    year: "2011 - 2012",
+    title: "Lecturer – Dental Unit",
+    company: "Marks Medical College & Hospital",
+    type: "Academic",
+    image: "/images/experience/marks-medical.jpg",
+
+    responsibilities: [
+      "Provided academic instruction for dental students.",
+      "Supervised clinical training and practical healthcare education."
+    ],
+
+    achievements: [
+      "Enhanced student clinical understanding and academic performance.",
+      "Supported hands-on clinical learning environments."
+    ],
+  },
+
+  {
+    id: 6,
+    year: "2010 - 2011",
+    title: "Honorary Medical Officer",
+    company: "Dhaka Dental College & Hospital",
+    type: "Medical Officer",
+    image: "/images/experience/dhaka-dental.jpg",
+
+    responsibilities: [
+      "Provided clinical care and patient treatment support.",
+      "Assisted in diagnosis and treatment planning."
+    ],
+
+    achievements: [
+      "Supported healthcare service delivery and patient management.",
+      "Worked closely with senior medical professionals in clinical operations."
+    ],
+  },
+],
+
+achievements: [
+  {
+    title: "National Digital Award",
+    organization: "ICT Division, Government of Bangladesh",
+    year: "2021",
+    image: "/images/achievements/national-digital-award.jpg",
+    description:
+      "Recipient of the National Digital Award (Best Team) for outstanding contribution to digital innovation and health technology in Bangladesh.",
+    type: "Award",
+  },
+
+  {
+    title: "Winner, She Loves Tech",
+    organization: "Beijing, China",
+    year: "2019",
+    image: "/images/gallery/gallery-4.jpg",
+    description:
+      "First Bangladeshi recipient and winner of the global She Loves Tech competition focused on women-led innovation and startup solutions.",
+    type: "International Competition",
+  },
+
+  {
+    title: "Foundry Women Business Growth Program",
+    organization: "Mumbai, India",
+    year: "2019",
+    image: "/images/gallery/gallery-5.jpg",
+    description:
+      "Selected participant in the international women business growth and leadership development program held in Mumbai, India.",
+    type: "International Program",
+  },
+
+  {
+    title: "Honorable Mention",
+    organization: "ICT Division, Government of Bangladesh",
+    year: "2020",
+    image: "/images/gallery/gallery-2.jpg",
+    description:
+      "Received honorable mention for contribution to digital transformation and innovation initiatives.",
+    type: "Recognition",
+  },
+
+  {
+    title: "International Donor Funding Management",
+    organization: "Development & Health Sector",
+    year: "2021",
+    image: "/images/achievements/national-digital-award.jpg",
+    description:
+      "Secured and managed international donor funding including proposal development, budgeting, donor coordination, and implementation planning.",
+    type: "Professional Achievement",
+  },
+
+  {
+    title: "WHO Digital Atlas Contribution",
+    organization: "World Health Organization (WHO)",
+    year: "2020",
+    image: "/images/gallery/gallery-3.jpg",
+    description:
+      "Contributed to the submission of Bangladesh's digital health solution to the WHO Digital Atlas platform.",
+    type: "Global Health Contribution",
+  },
+
+  {
+    title: "Digital Health Automation Model",
+    organization: "Bangladesh Health Innovation",
+    year: "2021",
+    image: "/images/achievements/national-digital-award.jpg",
+    description:
+      "Developed a scalable district-level digital health automation model with KPI tracking and Monitoring & Evaluation framework.",
+    type: "Innovation",
+  },
+
+  {
+    title: "International Representation",
+    organization: "Global Innovation & Health Platforms",
+    year: "2019",
+    image: "/images/achievements/national-digital-award.jpg",
+    description:
+      "Represented Bangladesh in multiple international innovation, entrepreneurship, and digital health platforms.",
+    type: "Representation",
+  },
+],
+
+gallery: [
+  {
+    id: 1,
+    image: "/images/gallery/gallery-1.jpg",
+    alt: "Award ceremony moment",
+  },
+  {
+    id: 2,
+    image: "/images/gallery/gallery-2.jpg",
+    alt: "Professional event participation",
+  },
+  {
+    id: 3,
+    image: "/images/gallery/gallery-3.jpg",
+    alt: "Healthcare innovation program",
+  },
+  {
+    id: 4,
+    image: "/images/gallery/gallery-4.jpg",
+    alt: "International conference",
+  },
+  {
+    id: 5,
+    image: "/images/gallery/gallery-5.jpg",
+    alt: "Team achievement moment",
+  },
+],
+
+  projects: [
+    {
+      id: 1,
+      title: "Optimization of Fuel Pump Manufacturing Machine Downtime",
+      category: "Internship Project at Innodatatics",
+      description:
+        "Developed a full-stack web application to monitor and optimize machine downtime in a manufacturing environment.",
+      tools: "Django, React, PostgreSQL, JavaScript, HTML, CSS, Bootstrap",
+      image: "/images/project1.jpg",
+      link: "#",
+    },
+    {
+      id: 2,
+      title: "Raw Material Price Analysis",
+      category: "Internship Project at Innodatatics",
+      description:
+        "Developed a web-based dashboard to analyze and visualize price volatility of metals and minerals.",
+      tools: "Django, React, PostgreSQL, API Integration, Plotly",
+      image: "/images/project2.jpg",
+      link: "#",
+    },
+    {
+      id: 3,
+      title: "Sales Analysis Dashboard",
+      category: "Internship Project at MeriSKILL",
+      description:
+        "Created a dynamic sales analysis dashboard with real-time charts and business insights.",
+      tools: "Django, React, PostgreSQL, React Charts, Plotly",
+      image: "/images/project3.jpg",
+      link: "#",
+    },
+  ],
+
+  blogs: [
+  {
+    id: 1,
+    title: "Your Career Guide 2026: A 360-Degree Framework",
+    slug: "career-guide-2026",
+    category: "Career Advice",
+    tag: "Career",
+    image: "/images/blogs/blog-1.jpeg",
+    excerpt:
+      "A practical guide to building a strong career path with strategy, skills, and long-term planning.",
+    featured: true,
+    date: "2026-01-15",
+  },
+  {
+    id: 2,
+    title: "Future of Work: 8 Megatrends Shaping Change",
+    slug: "future-of-work-megatrends",
+    category: "Business & Management",
+    tag: "Future Work",
+    image: "/images/blogs/blog-2.jpg",
+    excerpt:
+      "Explore the major trends transforming workplaces, leadership, digital systems, and global collaboration.",
+    featured: true,
+    date: "2026-01-10",
+  },
+  {
+    id: 3,
+    title: "Future of Work: Why Critical Thinking Matters",
+    slug: "why-critical-thinking-matters",
+    category: "Career Advice",
+    tag: "Skills",
+    image: "/images/blogs/blog-3.png",
+    excerpt:
+      "Critical thinking and interpersonal skills are becoming essential for modern professionals.",
+    featured: true,
+    date: "2026-01-05",
+  },
+  {
+    id: 4,
+    title: "Building Digital Health Innovation for Bangladesh",
+    slug: "digital-health-innovation-bangladesh",
+    category: "Digital Health",
+    tag: "HealthTech",
+    image: "/images/blogs/blog-4.png",
+    excerpt:
+      "How digital healthcare platforms can improve access, affordability, and service delivery.",
+    featured: true,
+    date: "2025-12-20",
+  },
+  {
+    id: 5,
+    title: "International Partnerships in Healthcare Innovation",
+    slug: "international-healthcare-partnerships",
+    category: "Partnership",
+    tag: "Leadership",
+    image: "/images/blogs/blog-5.png",
+    excerpt:
+      "A look into donor coordination, cross-sector partnerships, and scalable health solutions.",
+    featured: true,
+    date: "2025-12-12",
+  },
+],
+  
+
+  contact: {
+    address: "Jhalokathi, Bangladesh",
+    phone: "+88 01516735724",
+    email: "alferdous13@gmail.com",
+    resume: "https://alferdousrana.github.io/Resume-Al_Ferdous/",
+  },
+};
+
+export default fallbackData;
